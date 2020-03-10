@@ -1,0 +1,10 @@
+(module SENSE_PAD (layer F.Cu) (tedit 5DD95C46)
+  (fp_text reference REF** (at 0 7.62) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SENSE_PAD (at 0 -7.62) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd roundrect (at 0 0) (size 4.8 12.75) (layers F.Cu) (roundrect_rratio 0.156))
+  (pad 2 smd roundrect (at 0 0) (size 4.8 12.75) (layers B.Cu) (roundrect_rratio 0.156))
+)

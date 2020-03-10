@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "beamspring pad")(type KiCad)(uri "${KIPRJMOD}/beamspring pad.pretty")(options "")(descr ""))
+  (lib (name "beamspring card edge")(type KiCad)(uri "${KIPRJMOD}/beamspring card edge.pretty")(options "")(descr ""))
+)

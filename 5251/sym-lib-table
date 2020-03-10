@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "beamspring pad")(type Legacy)(uri "${KIPRJMOD}/beamspring pad.lib")(options "")(descr ""))
+)

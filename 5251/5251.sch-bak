@@ -1,0 +1,2364 @@
+EESchema Schematic File Version 4
+LIBS:5251-cache
+EELAYER 30 0
+EELAYER END
+$Descr D 34000 22000
+encoding utf-8
+Sheet 1 1
+Title "5251 replacement pcb"
+Date "2019-11-24"
+Rev "0.0.1"
+Comp "rainy day plans"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x30 J1
+U 1 1 5DD79CCD
+P 15050 14950
+F 0 "J1" V 15175 14896 50  0000 C CNN
+F 1 "Conn_01x30" V 15266 14896 50  0000 C CNN
+F 2 "beamspring card edge:BEAMSPRING-CARD-EDGE" H 15050 14950 50  0001 C CNN
+F 3 "~" H 15050 14950 50  0001 C CNN
+	1    15050 14950
+	0    -1   1    0   
+$EndComp
+$Comp
+L beamspring~pad:sense_pad U69
+U 1 1 5DDA4653
+P 7350 11100
+F 0 "U69" H 7383 11465 50  0000 C CNN
+F 1 "F7_SENSE" H 7383 11374 50  0000 C CNN
+F 2 "beamspring pad:SENSE_PAD" H 7400 11100 50  0001 C CNN
+F 3 "" H 7400 11100 50  0001 C CNN
+	1    7350 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U71
+U 1 1 5DDB06B9
+P 9200 11100
+F 0 "U71" H 9283 11465 50  0000 C CNN
+F 1 "F8" H 9283 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 9250 11100 50  0001 C CNN
+F 3 "" H 9250 11100 50  0001 C CNN
+	1    9200 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U48
+U 1 1 5DDB06B3
+P 9200 10450
+F 0 "U48" H 9328 10825 50  0000 C CNN
+F 1 "F6" H 9328 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 9250 10450 50  0001 C CNN
+F 3 "" H 9250 10450 50  0001 C CNN
+	1    9200 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U25
+U 1 1 5DDB06AD
+P 9200 9800
+F 0 "U25" H 9283 10165 50  0000 C CNN
+F 1 "F4" H 9283 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 9250 9800 50  0001 C CNN
+F 3 "" H 9250 9800 50  0001 C CNN
+	1    9200 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U3
+U 1 1 5DDB06A7
+P 9200 9150
+F 0 "U3" H 9328 9525 50  0000 C CNN
+F 1 "F2" H 9328 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 9250 9150 50  0001 C CNN
+F 3 "" H 9250 9150 50  0001 C CNN
+	1    9200 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U70
+U 1 1 5DDA4647
+P 8250 11100
+F 0 "U70" H 8333 11465 50  0000 C CNN
+F 1 "F7" H 8333 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 8300 11100 50  0001 C CNN
+F 3 "" H 8300 11100 50  0001 C CNN
+	1    8250 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U47
+U 1 1 5DDA4641
+P 8250 10450
+F 0 "U47" H 8378 10825 50  0000 C CNN
+F 1 "F5" H 8378 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 8300 10450 50  0001 C CNN
+F 3 "" H 8300 10450 50  0001 C CNN
+	1    8250 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U24
+U 1 1 5DD9D0D7
+P 8250 9800
+F 0 "U24" H 8333 10165 50  0000 C CNN
+F 1 "F3" H 8333 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 8300 9800 50  0001 C CNN
+F 3 "" H 8300 9800 50  0001 C CNN
+	1    8250 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U2
+U 1 1 5DD98832
+P 8250 9150
+F 0 "U2" H 8378 9525 50  0000 C CNN
+F 1 "F1" H 8378 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 8300 9150 50  0001 C CNN
+F 3 "" H 8300 9150 50  0001 C CNN
+	1    8250 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U50
+U 1 1 5DDBA29F
+P 11100 10450
+F 0 "U50" H 11228 10825 50  0000 C CNN
+F 1 "LEFT_SHIFT" H 11228 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 11150 10450 50  0001 C CNN
+F 3 "" H 11150 10450 50  0001 C CNN
+	1    11100 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U27
+U 1 1 5DDBA2A5
+P 11100 9800
+F 0 "U27" H 11183 10165 50  0000 C CNN
+F 1 "CONTROL" H 11183 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 11150 9800 50  0001 C CNN
+F 3 "" H 11150 9800 50  0001 C CNN
+	1    11100 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U72
+U 1 1 5DDBA2B7
+P 10150 11100
+F 0 "U72" H 10233 11465 50  0000 C CNN
+F 1 "F10" H 10233 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 10200 11100 50  0001 C CNN
+F 3 "" H 10200 11100 50  0001 C CNN
+	1    10150 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U26
+U 1 1 5DDBA2C3
+P 10150 9800
+F 0 "U26" H 10233 10165 50  0000 C CNN
+F 1 "F9" H 10233 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 10200 9800 50  0001 C CNN
+F 3 "" H 10200 9800 50  0001 C CNN
+	1    10150 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U75
+U 1 1 5DDCFFC3
+P 13000 11100
+F 0 "U75" H 13083 11465 50  0000 C CNN
+F 1 "Z" H 13083 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 13050 11100 50  0001 C CNN
+F 3 "" H 13050 11100 50  0001 C CNN
+	1    13000 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U52
+U 1 1 5DDCFFC9
+P 13000 10450
+F 0 "U52" H 13128 10825 50  0000 C CNN
+F 1 "A" H 13128 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 13050 10450 50  0001 C CNN
+F 3 "" H 13050 10450 50  0001 C CNN
+	1    13000 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U29
+U 1 1 5DDCFFCF
+P 13000 9800
+F 0 "U29" H 13083 10165 50  0000 C CNN
+F 1 "Q" H 13083 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 13050 9800 50  0001 C CNN
+F 3 "" H 13050 9800 50  0001 C CNN
+	1    13000 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U6
+U 1 1 5DDCFFD5
+P 13000 9150
+F 0 "U6" H 13128 9525 50  0000 C CNN
+F 1 "1" H 13128 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 13050 9150 50  0001 C CNN
+F 3 "" H 13050 9150 50  0001 C CNN
+	1    13000 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U74
+U 1 1 5DDCFFE1
+P 12050 11100
+F 0 "U74" H 12133 11465 50  0000 C CNN
+F 1 "ERROR_RESET" H 12133 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 12100 11100 50  0001 C CNN
+F 3 "" H 12100 11100 50  0001 C CNN
+	1    12050 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U51
+U 1 1 5DDCFFE7
+P 12050 10450
+F 0 "U51" H 12178 10825 50  0000 C CNN
+F 1 "<>" H 12178 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 12100 10450 50  0001 C CNN
+F 3 "" H 12100 10450 50  0001 C CNN
+	1    12050 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U28
+U 1 1 5DDCFFED
+P 12050 9800
+F 0 "U28" H 12133 10165 50  0000 C CNN
+F 1 "RIGHT_TAB" H 12133 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 12100 9800 50  0001 C CNN
+F 3 "" H 12100 9800 50  0001 C CNN
+	1    12050 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U5
+U 1 1 5DDCFFF3
+P 12050 9150
+F 0 "U5" H 12178 9525 50  0000 C CNN
+F 1 "TILDE" H 12178 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 12100 9150 50  0001 C CNN
+F 3 "" H 12100 9150 50  0001 C CNN
+	1    12050 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U77
+U 1 1 5DDCFFFF
+P 14900 11100
+F 0 "U77" H 14983 11465 50  0000 C CNN
+F 1 "C" H 14983 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 14950 11100 50  0001 C CNN
+F 3 "" H 14950 11100 50  0001 C CNN
+	1    14900 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U54
+U 1 1 5DDD0005
+P 14900 10450
+F 0 "U54" H 15028 10825 50  0000 C CNN
+F 1 "D" H 15028 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 14950 10450 50  0001 C CNN
+F 3 "" H 14950 10450 50  0001 C CNN
+	1    14900 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U31
+U 1 1 5DDD000B
+P 14900 9800
+F 0 "U31" H 14983 10165 50  0000 C CNN
+F 1 "E" H 14983 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 14950 9800 50  0001 C CNN
+F 3 "" H 14950 9800 50  0001 C CNN
+	1    14900 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U8
+U 1 1 5DDD0011
+P 14900 9150
+F 0 "U8" H 15028 9525 50  0000 C CNN
+F 1 "3" H 15028 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 14950 9150 50  0001 C CNN
+F 3 "" H 14950 9150 50  0001 C CNN
+	1    14900 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U76
+U 1 1 5DDD001D
+P 13950 11100
+F 0 "U76" H 14033 11465 50  0000 C CNN
+F 1 "X" H 14033 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 14000 11100 50  0001 C CNN
+F 3 "" H 14000 11100 50  0001 C CNN
+	1    13950 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U53
+U 1 1 5DDD0023
+P 13950 10450
+F 0 "U53" H 14078 10825 50  0000 C CNN
+F 1 "S" H 14078 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 14000 10450 50  0001 C CNN
+F 3 "" H 14000 10450 50  0001 C CNN
+	1    13950 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U30
+U 1 1 5DDD0029
+P 13950 9800
+F 0 "U30" H 14033 10165 50  0000 C CNN
+F 1 "W" H 14033 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 14000 9800 50  0001 C CNN
+F 3 "" H 14000 9800 50  0001 C CNN
+	1    13950 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U7
+U 1 1 5DDD002F
+P 13950 9150
+F 0 "U7" H 14078 9525 50  0000 C CNN
+F 1 "2" H 14078 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 14000 9150 50  0001 C CNN
+F 3 "" H 14000 9150 50  0001 C CNN
+	1    13950 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U79
+U 1 1 5DE012C5
+P 16800 11100
+F 0 "U79" H 16883 11465 50  0000 C CNN
+F 1 "B" H 16883 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 16850 11100 50  0001 C CNN
+F 3 "" H 16850 11100 50  0001 C CNN
+	1    16800 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U56
+U 1 1 5DE012CB
+P 16800 10450
+F 0 "U56" H 16928 10825 50  0000 C CNN
+F 1 "G" H 16928 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 16850 10450 50  0001 C CNN
+F 3 "" H 16850 10450 50  0001 C CNN
+	1    16800 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U33
+U 1 1 5DE012D1
+P 16800 9800
+F 0 "U33" H 16883 10165 50  0000 C CNN
+F 1 "T" H 16883 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 16850 9800 50  0001 C CNN
+F 3 "" H 16850 9800 50  0001 C CNN
+	1    16800 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U10
+U 1 1 5DE012D7
+P 16800 9150
+F 0 "U10" H 16928 9525 50  0000 C CNN
+F 1 "5" H 16928 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 16850 9150 50  0001 C CNN
+F 3 "" H 16850 9150 50  0001 C CNN
+	1    16800 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U78
+U 1 1 5DE012E3
+P 15850 11100
+F 0 "U78" H 15933 11465 50  0000 C CNN
+F 1 "V" H 15933 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 15900 11100 50  0001 C CNN
+F 3 "" H 15900 11100 50  0001 C CNN
+	1    15850 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U55
+U 1 1 5DE012E9
+P 15850 10450
+F 0 "U55" H 15978 10825 50  0000 C CNN
+F 1 "F" H 15978 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 15900 10450 50  0001 C CNN
+F 3 "" H 15900 10450 50  0001 C CNN
+	1    15850 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U32
+U 1 1 5DE012EF
+P 15850 9800
+F 0 "U32" H 15933 10165 50  0000 C CNN
+F 1 "R" H 15933 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 15900 9800 50  0001 C CNN
+F 3 "" H 15900 9800 50  0001 C CNN
+	1    15850 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U9
+U 1 1 5DE012F5
+P 15850 9150
+F 0 "U9" H 15978 9525 50  0000 C CNN
+F 1 "4" H 15978 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 15900 9150 50  0001 C CNN
+F 3 "" H 15900 9150 50  0001 C CNN
+	1    15850 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U81
+U 1 1 5DE01301
+P 18700 11100
+F 0 "U81" H 18783 11465 50  0000 C CNN
+F 1 "M" H 18783 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 18750 11100 50  0001 C CNN
+F 3 "" H 18750 11100 50  0001 C CNN
+	1    18700 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U58
+U 1 1 5DE01307
+P 18700 10450
+F 0 "U58" H 18828 10825 50  0000 C CNN
+F 1 "J" H 18828 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 18750 10450 50  0001 C CNN
+F 3 "" H 18750 10450 50  0001 C CNN
+	1    18700 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U35
+U 1 1 5DE0130D
+P 18700 9800
+F 0 "U35" H 18783 10165 50  0000 C CNN
+F 1 "U" H 18783 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 18750 9800 50  0001 C CNN
+F 3 "" H 18750 9800 50  0001 C CNN
+	1    18700 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U12
+U 1 1 5DE01313
+P 18700 9150
+F 0 "U12" H 18828 9525 50  0000 C CNN
+F 1 "7" H 18828 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 18750 9150 50  0001 C CNN
+F 3 "" H 18750 9150 50  0001 C CNN
+	1    18700 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U80
+U 1 1 5DE0131F
+P 17750 11100
+F 0 "U80" H 17833 11465 50  0000 C CNN
+F 1 "N" H 17833 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 17800 11100 50  0001 C CNN
+F 3 "" H 17800 11100 50  0001 C CNN
+	1    17750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U57
+U 1 1 5DE01325
+P 17750 10450
+F 0 "U57" H 17878 10825 50  0000 C CNN
+F 1 "H" H 17878 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 17800 10450 50  0001 C CNN
+F 3 "" H 17800 10450 50  0001 C CNN
+	1    17750 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U34
+U 1 1 5DE0132B
+P 17750 9800
+F 0 "U34" H 17833 10165 50  0000 C CNN
+F 1 "Y" H 17833 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 17800 9800 50  0001 C CNN
+F 3 "" H 17800 9800 50  0001 C CNN
+	1    17750 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U11
+U 1 1 5DE01331
+P 17750 9150
+F 0 "U11" H 17878 9525 50  0000 C CNN
+F 1 "6" H 17878 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 17800 9150 50  0001 C CNN
+F 3 "" H 17800 9150 50  0001 C CNN
+	1    17750 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U83
+U 1 1 5DE0133D
+P 20600 11100
+F 0 "U83" H 20683 11465 50  0000 C CNN
+F 1 ".." H 20683 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 20650 11100 50  0001 C CNN
+F 3 "" H 20650 11100 50  0001 C CNN
+	1    20600 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U60
+U 1 1 5DE01343
+P 20600 10450
+F 0 "U60" H 20728 10825 50  0000 C CNN
+F 1 "L" H 20728 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 20650 10450 50  0001 C CNN
+F 3 "" H 20650 10450 50  0001 C CNN
+	1    20600 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U14
+U 1 1 5DE0134F
+P 20600 9150
+F 0 "U14" H 20728 9525 50  0000 C CNN
+F 1 "9" H 20728 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 20650 9150 50  0001 C CNN
+F 3 "" H 20650 9150 50  0001 C CNN
+	1    20600 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U82
+U 1 1 5DE0135B
+P 19650 11100
+F 0 "U82" H 19733 11465 50  0000 C CNN
+F 1 ",," H 19733 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 19700 11100 50  0001 C CNN
+F 3 "" H 19700 11100 50  0001 C CNN
+	1    19650 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U59
+U 1 1 5DE01361
+P 19650 10450
+F 0 "U59" H 19778 10825 50  0000 C CNN
+F 1 "K" H 19778 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 19700 10450 50  0001 C CNN
+F 3 "" H 19700 10450 50  0001 C CNN
+	1    19650 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U13
+U 1 1 5DE0136D
+P 19650 9150
+F 0 "U13" H 19778 9525 50  0000 C CNN
+F 1 "8" H 19778 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 19700 9150 50  0001 C CNN
+F 3 "" H 19700 9150 50  0001 C CNN
+	1    19650 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U85
+U 1 1 5DE01379
+P 22500 11100
+F 0 "U85" H 22583 11465 50  0000 C CNN
+F 1 "SPACE" H 22583 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 22550 11100 50  0001 C CNN
+F 3 "" H 22550 11100 50  0001 C CNN
+	1    22500 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U62
+U 1 1 5DE0137F
+P 22500 10450
+F 0 "U62" H 22628 10825 50  0000 C CNN
+F 1 "'" H 22628 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 22550 10450 50  0001 C CNN
+F 3 "" H 22550 10450 50  0001 C CNN
+	1    22500 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U39
+U 1 1 5DE01385
+P 22500 9800
+F 0 "U39" H 22583 10165 50  0000 C CNN
+F 1 "BANG-CENT" H 22583 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 22550 9800 50  0001 C CNN
+F 3 "" H 22550 9800 50  0001 C CNN
+	1    22500 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U16
+U 1 1 5DE0138B
+P 22500 9150
+F 0 "U16" H 22628 9525 50  0000 C CNN
+F 1 "-_" H 22628 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 22550 9150 50  0001 C CNN
+F 3 "" H 22550 9150 50  0001 C CNN
+	1    22500 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U84
+U 1 1 5DE01397
+P 21550 11100
+F 0 "U84" H 21633 11465 50  0000 C CNN
+F 1 "/" H 21633 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 21600 11100 50  0001 C CNN
+F 3 "" H 21600 11100 50  0001 C CNN
+	1    21550 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U61
+U 1 1 5DE0139D
+P 21550 10450
+F 0 "U61" H 21678 10825 50  0000 C CNN
+F 1 ";" H 21678 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 21600 10450 50  0001 C CNN
+F 3 "" H 21600 10450 50  0001 C CNN
+	1    21550 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U38
+U 1 1 5DE013A3
+P 21550 9800
+F 0 "U38" H 21633 10165 50  0000 C CNN
+F 1 "P" H 21633 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 21600 9800 50  0001 C CNN
+F 3 "" H 21600 9800 50  0001 C CNN
+	1    21550 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U15
+U 1 1 5DE013A9
+P 21550 9150
+F 0 "U15" H 21678 9525 50  0000 C CNN
+F 1 "0" H 21678 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 21600 9150 50  0001 C CNN
+F 3 "" H 21600 9150 50  0001 C CNN
+	1    21550 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U87
+U 1 1 5DE2BB2F
+P 24300 11100
+F 0 "U87" H 24383 11465 50  0000 C CNN
+F 1 "ENTER/REC_ADV" H 24383 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 24350 11100 50  0001 C CNN
+F 3 "" H 24350 11100 50  0001 C CNN
+	1    24300 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U64
+U 1 1 5DE2BB35
+P 24300 10450
+F 0 "U64" H 24428 10825 50  0000 C CNN
+F 1 "RETURN" H 24428 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 24350 10450 50  0001 C CNN
+F 3 "" H 24350 10450 50  0001 C CNN
+	1    24300 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U41
+U 1 1 5DE2BB3B
+P 24300 9800
+F 0 "U41" H 24383 10165 50  0000 C CNN
+F 1 "FIELD_EXIT" H 24383 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 24350 9800 50  0001 C CNN
+F 3 "" H 24350 9800 50  0001 C CNN
+	1    24300 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U18
+U 1 1 5DE2BB41
+P 24300 9150
+F 0 "U18" H 24428 9525 50  0000 C CNN
+F 1 "BACKSPACE" H 24428 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 24350 9150 50  0001 C CNN
+F 3 "" H 24350 9150 50  0001 C CNN
+	1    24300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U86
+U 1 1 5DE2BB4D
+P 23350 11100
+F 0 "U86" H 23433 11465 50  0000 C CNN
+F 1 "RIGHT_SHIFT" H 23433 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 23400 11100 50  0001 C CNN
+F 3 "" H 23400 11100 50  0001 C CNN
+	1    23350 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U63
+U 1 1 5DE2BB53
+P 23350 10450
+F 0 "U63" H 23478 10825 50  0000 C CNN
+F 1 "{}" H 23478 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 23400 10450 50  0001 C CNN
+F 3 "" H 23400 10450 50  0001 C CNN
+	1    23350 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U40
+U 1 1 5DE2BB59
+P 23350 9800
+F 0 "U40" H 23433 10165 50  0000 C CNN
+F 1 "\\|" H 23433 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 23400 9800 50  0001 C CNN
+F 3 "" H 23400 9800 50  0001 C CNN
+	1    23350 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U17
+U 1 1 5DE2BB5F
+P 23350 9150
+F 0 "U17" H 23478 9525 50  0000 C CNN
+F 1 "=+" H 23478 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 23400 9150 50  0001 C CNN
+F 3 "" H 23400 9150 50  0001 C CNN
+	1    23350 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U89
+U 1 1 5DE2BB6B
+P 26200 11100
+F 0 "U89" H 26283 11465 50  0000 C CNN
+F 1 "PAD2" H 26283 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 26250 11100 50  0001 C CNN
+F 3 "" H 26250 11100 50  0001 C CNN
+	1    26200 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U66
+U 1 1 5DE2BB71
+P 26200 10450
+F 0 "U66" H 26328 10825 50  0000 C CNN
+F 1 "PAD5" H 26328 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 26250 10450 50  0001 C CNN
+F 3 "" H 26250 10450 50  0001 C CNN
+	1    26200 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U43
+U 1 1 5DE2BB77
+P 26200 9800
+F 0 "U43" H 26283 10165 50  0000 C CNN
+F 1 "PAD8" H 26283 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 26250 9800 50  0001 C CNN
+F 3 "" H 26250 9800 50  0001 C CNN
+	1    26200 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U20
+U 1 1 5DE2BB7D
+P 26200 9150
+F 0 "U20" H 26328 9525 50  0000 C CNN
+F 1 "LEFT_TAB" H 26328 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 26250 9150 50  0001 C CNN
+F 3 "" H 26250 9150 50  0001 C CNN
+	1    26200 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U65
+U 1 1 5DE2BB8F
+P 25250 10450
+F 0 "U65" H 25378 10825 50  0000 C CNN
+F 1 "PAD1" H 25378 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 25300 10450 50  0001 C CNN
+F 3 "" H 25300 10450 50  0001 C CNN
+	1    25250 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U42
+U 1 1 5DE2BB95
+P 25250 9800
+F 0 "U42" H 25333 10165 50  0000 C CNN
+F 1 "PAD4" H 25333 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 25300 9800 50  0001 C CNN
+F 3 "" H 25300 9800 50  0001 C CNN
+	1    25250 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U19
+U 1 1 5DE2BB9B
+P 25250 9150
+F 0 "U19" H 25378 9525 50  0000 C CNN
+F 1 "PAD7" H 25378 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 25300 9150 50  0001 C CNN
+F 3 "" H 25300 9150 50  0001 C CNN
+	1    25250 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U91
+U 1 1 5DE2BBA7
+P 28100 11100
+F 0 "U91" H 28183 11465 50  0000 C CNN
+F 1 "PAD." H 28183 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 28150 11100 50  0001 C CNN
+F 3 "" H 28150 11100 50  0001 C CNN
+	1    28100 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U68
+U 1 1 5DE2BBAD
+P 28100 10450
+F 0 "U68" H 28228 10825 50  0000 C CNN
+F 1 "FIELD+" H 28228 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 28150 10450 50  0001 C CNN
+F 3 "" H 28150 10450 50  0001 C CNN
+	1    28100 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U45
+U 1 1 5DE2BBB3
+P 28100 9800
+F 0 "U45" H 28183 10165 50  0000 C CNN
+F 1 "FIELD-" H 28183 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 28150 9800 50  0001 C CNN
+F 3 "" H 28150 9800 50  0001 C CNN
+	1    28100 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U22
+U 1 1 5DE2BBB9
+P 28100 9150
+F 0 "U22" H 28228 9525 50  0000 C CNN
+F 1 "DUP" H 28228 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 28150 9150 50  0001 C CNN
+F 3 "" H 28150 9150 50  0001 C CNN
+	1    28100 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U90
+U 1 1 5DE2BBC5
+P 27150 11100
+F 0 "U90" H 27233 11465 50  0000 C CNN
+F 1 "PAD0" H 27233 11374 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 27200 11100 50  0001 C CNN
+F 3 "" H 27200 11100 50  0001 C CNN
+	1    27150 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U67
+U 1 1 5DE2BBCB
+P 27150 10450
+F 0 "U67" H 27278 10825 50  0000 C CNN
+F 1 "PAD3" H 27278 10734 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 27200 10450 50  0001 C CNN
+F 3 "" H 27200 10450 50  0001 C CNN
+	1    27150 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U44
+U 1 1 5DE2BBD1
+P 27150 9800
+F 0 "U44" H 27233 10165 50  0000 C CNN
+F 1 "PAD6" H 27233 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 27200 9800 50  0001 C CNN
+F 3 "" H 27200 9800 50  0001 C CNN
+	1    27150 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U21
+U 1 1 5DE2BBD7
+P 27150 9150
+F 0 "U21" H 27278 9525 50  0000 C CNN
+F 1 "PAD9" H 27278 9434 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 27200 9150 50  0001 C CNN
+F 3 "" H 27200 9150 50  0001 C CNN
+	1    27150 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 8700 8800 9250
+Wire Wire Line
+	9750 8700 9750 9250
+Wire Wire Line
+	10700 8700 10700 9900
+Wire Wire Line
+	11650 8700 11650 9250
+Wire Wire Line
+	12600 8700 12600 9250
+Wire Wire Line
+	13550 8700 13550 9250
+Wire Wire Line
+	14500 8700 14500 9250
+Wire Wire Line
+	15400 8700 15400 9250
+Wire Wire Line
+	16350 8700 16350 9250
+Wire Wire Line
+	17300 8700 17300 9250
+Wire Wire Line
+	18250 8700 18250 9250
+Wire Wire Line
+	19200 8700 19200 9250
+Wire Wire Line
+	20150 8700 20150 9250
+Wire Wire Line
+	21100 8700 21100 9250
+Wire Wire Line
+	22050 8700 22050 9250
+Wire Wire Line
+	23000 8700 23000 9250
+Wire Wire Line
+	23950 8700 23950 9250
+Wire Wire Line
+	24900 8700 24900 9250
+Wire Wire Line
+	25850 8700 25850 9250
+Wire Wire Line
+	26800 8700 26800 9250
+Wire Wire Line
+	27750 8700 27750 9250
+Wire Wire Line
+	28700 8700 28700 9250
+Wire Wire Line
+	7050 10750 7700 10750
+Wire Wire Line
+	7050 10100 7700 10100
+Wire Wire Line
+	7050 9450 7700 9450
+Text GLabel 29000 8800 2    50   Input ~ 0
+ROW0
+Text GLabel 29000 9450 2    50   Input ~ 0
+ROW1
+Text GLabel 29000 10100 2    50   Input ~ 0
+ROW2
+Text GLabel 29000 10750 2    50   Input ~ 0
+ROW3
+Text GLabel 7850 8700 1    50   Input ~ 0
+COL0
+Text GLabel 8800 8700 1    50   Input ~ 0
+COL1
+Text GLabel 9750 8700 1    50   Input ~ 0
+COL2
+Text GLabel 10700 8700 1    50   Input ~ 0
+COL3
+Text GLabel 11650 8700 1    50   Input ~ 0
+COL4
+Text GLabel 12600 8700 1    50   Input ~ 0
+COL5
+Text GLabel 13550 8700 1    50   Input ~ 0
+COL6
+Text GLabel 14500 8700 1    50   Input ~ 0
+COL7
+Text GLabel 15400 8700 1    50   Input ~ 0
+COL8
+Text GLabel 16350 8700 1    50   Input ~ 0
+COL9
+Text GLabel 17300 8700 1    50   Input ~ 0
+COL10
+Text GLabel 18250 8700 1    50   Input ~ 0
+COL11
+Text GLabel 19200 8700 1    50   Input ~ 0
+COL12
+Text GLabel 20150 8700 1    50   Input ~ 0
+COL13
+Text GLabel 21100 8700 1    50   Input ~ 0
+COL14
+Text GLabel 22050 8700 1    50   Input ~ 0
+COL15
+Text GLabel 23000 8700 1    50   Input ~ 0
+COL16
+Text GLabel 23950 8700 1    50   Input ~ 0
+COL17
+Text GLabel 24900 8700 1    50   Input ~ 0
+COL18
+Text GLabel 25850 8700 1    50   Input ~ 0
+COL19
+Text GLabel 26800 8700 1    50   Input ~ 0
+COL20
+Text GLabel 27750 8700 1    50   Input ~ 0
+COL21
+Text GLabel 28700 8700 1    50   Input ~ 0
+COL22
+Text GLabel 7050 8800 0    50   Input ~ 0
+ROW0
+Text GLabel 7050 9450 0    50   Input ~ 0
+ROW1
+Text GLabel 7050 10100 0    50   Input ~ 0
+ROW2
+Text GLabel 7050 10750 0    50   Input ~ 0
+ROW3
+Text GLabel 7850 12100 3    50   Input ~ 0
+COL0
+Text GLabel 8800 12100 3    50   Input ~ 0
+COL1
+Text GLabel 9750 12100 3    50   Input ~ 0
+COL2
+Text GLabel 10700 12100 3    50   Input ~ 0
+COL3
+Text GLabel 11650 12100 3    50   Input ~ 0
+COL4
+Text GLabel 12600 12100 3    50   Input ~ 0
+COL5
+Text GLabel 13550 12100 3    50   Input ~ 0
+COL6
+Text GLabel 14500 12100 3    50   Input ~ 0
+COL7
+Text GLabel 15400 12100 3    50   Input ~ 0
+COL8
+Text GLabel 16350 12100 3    50   Input ~ 0
+COL9
+Text GLabel 17300 12100 3    50   Input ~ 0
+COL10
+Text GLabel 18250 12100 3    50   Input ~ 0
+COL11
+Text GLabel 19200 12100 3    50   Input ~ 0
+COL12
+Text GLabel 20150 12100 3    50   Input ~ 0
+COL13
+Text GLabel 21100 12100 3    50   Input ~ 0
+COL14
+Text GLabel 22050 12100 3    50   Input ~ 0
+COL15
+Text GLabel 23000 12100 3    50   Input ~ 0
+COL16
+Text GLabel 23950 12100 3    50   Input ~ 0
+COL17
+Text GLabel 24900 12100 3    50   Input ~ 0
+COL18
+Text GLabel 25850 12100 3    50   Input ~ 0
+COL19
+Text GLabel 26800 12100 3    50   Input ~ 0
+COL20
+Text GLabel 27750 12100 3    50   Input ~ 0
+COL21
+Text GLabel 28700 12100 3    50   Input ~ 0
+COL22
+Wire Wire Line
+	7050 8800 7700 8800
+Wire Wire Line
+	7850 8700 7850 9250
+Text GLabel 16250 14750 1    50   Input ~ 0
+ROW0
+Text GLabel 16350 14750 1    50   Input ~ 0
+ROW1
+Text GLabel 16450 14750 1    50   Input ~ 0
+ROW2
+Text GLabel 16550 14750 1    50   Input ~ 0
+ROW3
+$Comp
+L power:GNDA #PWR02
+U 1 1 5DEA263A
+P 16150 14550
+F 0 "#PWR02" H 16150 14300 50  0001 C CNN
+F 1 "GNDA" H 16155 14377 50  0000 C CNN
+F 2 "" H 16150 14550 50  0001 C CNN
+F 3 "" H 16150 14550 50  0001 C CNN
+	1    16150 14550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16150 14550 16150 14750
+$Comp
+L power:GNDA #PWR01
+U 1 1 5DEA4751
+P 13650 14550
+F 0 "#PWR01" H 13650 14300 50  0001 C CNN
+F 1 "GNDA" H 13655 14377 50  0000 C CNN
+F 2 "" H 13650 14550 50  0001 C CNN
+F 3 "" H 13650 14550 50  0001 C CNN
+	1    13650 14550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13650 14550 13650 14750
+Text GLabel 16050 14750 1    50   Input ~ 0
+COL0
+Text GLabel 15950 14750 1    50   Input ~ 0
+COL1
+Text GLabel 15850 14750 1    50   Input ~ 0
+COL2
+Text GLabel 15750 14750 1    50   Input ~ 0
+COL3
+Text GLabel 15650 14750 1    50   Input ~ 0
+COL4
+Text GLabel 15550 14750 1    50   Input ~ 0
+COL5
+Text GLabel 15450 14750 1    50   Input ~ 0
+COL6
+Text GLabel 15350 14750 1    50   Input ~ 0
+COL7
+Text GLabel 15250 14750 1    50   Input ~ 0
+COL8
+Text GLabel 15050 14750 1    50   Input ~ 0
+COL9
+Text GLabel 14950 14750 1    50   Input ~ 0
+COL10
+Text GLabel 14850 14750 1    50   Input ~ 0
+COL11
+Text GLabel 14750 14750 1    50   Input ~ 0
+COL12
+Text GLabel 14650 14750 1    50   Input ~ 0
+COL13
+Text GLabel 14550 14750 1    50   Input ~ 0
+COL14
+Text GLabel 14450 14750 1    50   Input ~ 0
+COL15
+Text GLabel 14350 14750 1    50   Input ~ 0
+COL16
+Text GLabel 14250 14750 1    50   Input ~ 0
+COL17
+Text GLabel 14150 14750 1    50   Input ~ 0
+COL18
+Text GLabel 14050 14750 1    50   Input ~ 0
+COL19
+Text GLabel 13950 14750 1    50   Input ~ 0
+COL20
+Text GLabel 13850 14750 1    50   Input ~ 0
+COL21
+Text GLabel 13750 14750 1    50   Input ~ 0
+COL22
+NoConn ~ 15150 14750
+Wire Wire Line
+	7600 9050 7700 9050
+Wire Wire Line
+	7700 9050 7700 8800
+Connection ~ 7700 8800
+Wire Wire Line
+	7700 8800 8650 8800
+Wire Wire Line
+	7600 9250 7850 9250
+Connection ~ 7850 9250
+Wire Wire Line
+	7850 9250 7850 9900
+Wire Wire Line
+	7600 9900 7850 9900
+Connection ~ 7850 9900
+Wire Wire Line
+	7850 9900 7850 10550
+Wire Wire Line
+	7600 10550 7850 10550
+Connection ~ 7850 10550
+Wire Wire Line
+	7850 10550 7850 11200
+Wire Wire Line
+	7600 11200 7850 11200
+Connection ~ 7850 11200
+Wire Wire Line
+	7850 11200 7850 12100
+$Comp
+L beamspring~pad:sense_pad U4
+U 1 1 5DDD5E0C
+P 11150 9150
+F 0 "U4" H 11183 9515 50  0000 C CNN
+F 1 "RIGHT_TAB_SENSE" H 11183 9424 50  0000 C CNN
+F 2 "beamspring pad:SENSE_PAD" H 11200 9150 50  0001 C CNN
+F 3 "" H 11200 9150 50  0001 C CNN
+	1    11150 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:sense_pad U49
+U 1 1 5DDD70C2
+P 10200 10450
+F 0 "U49" H 10233 10815 50  0000 C CNN
+F 1 "F9_SENSE" H 10233 10724 50  0000 C CNN
+F 2 "beamspring pad:SENSE_PAD" H 10250 10450 50  0001 C CNN
+F 3 "" H 10250 10450 50  0001 C CNN
+	1    10200 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:sense_pad U73
+U 1 1 5DDD8F6D
+P 11150 11100
+F 0 "U73" H 11183 11465 50  0000 C CNN
+F 1 "ERROR_RESET_SENSE" H 11183 11374 50  0000 C CNN
+F 2 "beamspring pad:SENSE_PAD" H 11200 11100 50  0001 C CNN
+F 3 "" H 11200 11100 50  0001 C CNN
+	1    11150 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:sense_pad U88
+U 1 1 5DDD96D2
+P 25300 11100
+F 0 "U88" H 25333 11465 50  0000 C CNN
+F 1 "PAD0_SENSE" H 25333 11374 50  0000 C CNN
+F 2 "beamspring pad:SENSE_PAD" H 25350 11100 50  0001 C CNN
+F 3 "" H 25350 11100 50  0001 C CNN
+	1    25300 11100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 9250 8800 9250
+Connection ~ 8800 9250
+Wire Wire Line
+	8800 9250 8800 9900
+Wire Wire Line
+	8550 9050 8650 9050
+Wire Wire Line
+	8650 9050 8650 8800
+Connection ~ 8650 8800
+Wire Wire Line
+	8650 8800 9600 8800
+Wire Wire Line
+	9500 9050 9600 9050
+Wire Wire Line
+	9600 9050 9600 8800
+Connection ~ 9600 8800
+Wire Wire Line
+	9600 8800 11500 8800
+Wire Wire Line
+	9500 9250 9750 9250
+Connection ~ 9750 9250
+Wire Wire Line
+	9750 9250 9750 9900
+Wire Wire Line
+	11400 9250 11650 9250
+Connection ~ 11650 9250
+Wire Wire Line
+	11650 9250 11650 9900
+Wire Wire Line
+	11400 9050 11500 9050
+Wire Wire Line
+	11500 9050 11500 8800
+Connection ~ 11500 8800
+Wire Wire Line
+	11500 8800 12450 8800
+Wire Wire Line
+	12350 9050 12450 9050
+Wire Wire Line
+	12450 9050 12450 8800
+Connection ~ 12450 8800
+Wire Wire Line
+	12450 8800 13400 8800
+Wire Wire Line
+	12350 9250 12600 9250
+Connection ~ 12600 9250
+Wire Wire Line
+	12600 9250 12600 9900
+Wire Wire Line
+	13300 9050 13400 9050
+Wire Wire Line
+	13400 9050 13400 8800
+Connection ~ 13400 8800
+Wire Wire Line
+	13400 8800 14350 8800
+Wire Wire Line
+	13300 9250 13550 9250
+Connection ~ 13550 9250
+Wire Wire Line
+	13550 9250 13550 9900
+Wire Wire Line
+	14250 9050 14350 9050
+Wire Wire Line
+	14350 9050 14350 8800
+Connection ~ 14350 8800
+Wire Wire Line
+	14350 8800 15300 8800
+Wire Wire Line
+	14250 9250 14500 9250
+Connection ~ 14500 9250
+Wire Wire Line
+	14500 9250 14500 9900
+Wire Wire Line
+	15200 9050 15300 9050
+Wire Wire Line
+	15300 9050 15300 8800
+Connection ~ 15300 8800
+Wire Wire Line
+	15300 8800 16250 8800
+Wire Wire Line
+	15200 9250 15400 9250
+Connection ~ 15400 9250
+Wire Wire Line
+	15400 9250 15400 9900
+Wire Wire Line
+	16150 9050 16250 9050
+Wire Wire Line
+	16250 9050 16250 8800
+Connection ~ 16250 8800
+Wire Wire Line
+	16150 9250 16350 9250
+Connection ~ 16350 9250
+Wire Wire Line
+	16350 9250 16350 9900
+Wire Wire Line
+	16250 8800 17200 8800
+Wire Wire Line
+	17100 9050 17200 9050
+Wire Wire Line
+	17200 9050 17200 8800
+Connection ~ 17200 8800
+Wire Wire Line
+	17200 8800 18150 8800
+Wire Wire Line
+	17100 9250 17300 9250
+Connection ~ 17300 9250
+Wire Wire Line
+	17300 9250 17300 9900
+Wire Wire Line
+	18050 9050 18150 9050
+Wire Wire Line
+	18150 9050 18150 8800
+Connection ~ 18150 8800
+Wire Wire Line
+	18150 8800 19100 8800
+Wire Wire Line
+	18050 9250 18250 9250
+Connection ~ 18250 9250
+Wire Wire Line
+	18250 9250 18250 9900
+Wire Wire Line
+	19000 9050 19100 9050
+Wire Wire Line
+	19100 9050 19100 8800
+Connection ~ 19100 8800
+Wire Wire Line
+	19100 8800 20050 8800
+Wire Wire Line
+	19000 9250 19200 9250
+Connection ~ 19200 9250
+Wire Wire Line
+	19200 9250 19200 9900
+Wire Wire Line
+	19950 9050 20050 9050
+Wire Wire Line
+	20050 9050 20050 8800
+Connection ~ 20050 8800
+Wire Wire Line
+	20050 8800 21000 8800
+Wire Wire Line
+	19950 9250 20150 9250
+Connection ~ 20150 9250
+Wire Wire Line
+	20150 9250 20150 9900
+Wire Wire Line
+	20900 9050 21000 9050
+Wire Wire Line
+	21000 9050 21000 8800
+Connection ~ 21000 8800
+Wire Wire Line
+	21000 8800 21950 8800
+Wire Wire Line
+	20900 9250 21100 9250
+Connection ~ 21100 9250
+Wire Wire Line
+	21100 9250 21100 9900
+Wire Wire Line
+	21850 9050 21950 9050
+Wire Wire Line
+	21950 9050 21950 8800
+Connection ~ 21950 8800
+Wire Wire Line
+	21950 8800 22900 8800
+Wire Wire Line
+	21850 9250 22050 9250
+Connection ~ 22050 9250
+Wire Wire Line
+	22050 9250 22050 9900
+Wire Wire Line
+	22800 9050 22900 9050
+Wire Wire Line
+	22900 9050 22900 8800
+Connection ~ 22900 8800
+Wire Wire Line
+	22900 8800 23750 8800
+Wire Wire Line
+	22800 9250 23000 9250
+Connection ~ 23000 9250
+Wire Wire Line
+	23000 9250 23000 9900
+Wire Wire Line
+	23650 9050 23750 9050
+Wire Wire Line
+	23750 9050 23750 8800
+Connection ~ 23750 8800
+Wire Wire Line
+	23750 8800 24700 8800
+Wire Wire Line
+	23650 9250 23950 9250
+Connection ~ 23950 9250
+Wire Wire Line
+	23950 9250 23950 9900
+Wire Wire Line
+	24600 9050 24700 9050
+Wire Wire Line
+	24700 9050 24700 8800
+Connection ~ 24700 8800
+Wire Wire Line
+	24700 8800 25650 8800
+Wire Wire Line
+	24600 9250 24900 9250
+Connection ~ 24900 9250
+Wire Wire Line
+	24900 9250 24900 9900
+Wire Wire Line
+	25550 9050 25650 9050
+Wire Wire Line
+	25650 9050 25650 8800
+Connection ~ 25650 8800
+Wire Wire Line
+	25650 8800 26600 8800
+Wire Wire Line
+	25550 9250 25850 9250
+Connection ~ 25850 9250
+Wire Wire Line
+	25850 9250 25850 9900
+Wire Wire Line
+	26500 9050 26600 9050
+Wire Wire Line
+	26600 9050 26600 8800
+Connection ~ 26600 8800
+Wire Wire Line
+	26600 8800 27550 8800
+Wire Wire Line
+	26500 9250 26800 9250
+Connection ~ 26800 9250
+Wire Wire Line
+	26800 9250 26800 9900
+Wire Wire Line
+	27450 9050 27550 9050
+Wire Wire Line
+	27550 9050 27550 8800
+Connection ~ 27550 8800
+Wire Wire Line
+	27550 8800 28500 8800
+Wire Wire Line
+	27450 9250 27750 9250
+Connection ~ 27750 9250
+Wire Wire Line
+	27750 9250 27750 9900
+Wire Wire Line
+	28400 9050 28500 9050
+Wire Wire Line
+	28500 9050 28500 8800
+Connection ~ 28500 8800
+Wire Wire Line
+	28500 8800 29000 8800
+Wire Wire Line
+	28400 9250 28700 9250
+Connection ~ 28700 9250
+Wire Wire Line
+	28700 9250 28700 9900
+Wire Wire Line
+	28400 9700 28550 9700
+Wire Wire Line
+	28550 9700 28550 9450
+Connection ~ 28550 9450
+Wire Wire Line
+	28550 9450 29000 9450
+Wire Wire Line
+	28400 9900 28700 9900
+Connection ~ 28700 9900
+Wire Wire Line
+	28700 9900 28700 10550
+Wire Wire Line
+	27450 9700 27550 9700
+Wire Wire Line
+	27550 9700 27550 9450
+Connection ~ 27550 9450
+Wire Wire Line
+	27550 9450 28550 9450
+Wire Wire Line
+	27450 9900 27750 9900
+Connection ~ 27750 9900
+Wire Wire Line
+	27750 9900 27750 10550
+Wire Wire Line
+	26500 9700 26600 9700
+Wire Wire Line
+	26600 9700 26600 9450
+Connection ~ 26600 9450
+Wire Wire Line
+	26600 9450 27550 9450
+Wire Wire Line
+	26500 9900 26800 9900
+Connection ~ 26800 9900
+Wire Wire Line
+	26800 9900 26800 10550
+Wire Wire Line
+	25550 9700 25650 9700
+Wire Wire Line
+	25650 9700 25650 9450
+Connection ~ 25650 9450
+Wire Wire Line
+	25650 9450 26600 9450
+Wire Wire Line
+	25550 9900 25850 9900
+Connection ~ 25850 9900
+Wire Wire Line
+	25850 9900 25850 10550
+Wire Wire Line
+	24600 9700 24700 9700
+Wire Wire Line
+	24700 9700 24700 9450
+Connection ~ 24700 9450
+Wire Wire Line
+	24700 9450 25650 9450
+Wire Wire Line
+	24600 9900 24900 9900
+Connection ~ 24900 9900
+Wire Wire Line
+	24900 9900 24900 10550
+Wire Wire Line
+	23650 9700 23750 9700
+Wire Wire Line
+	23750 9700 23750 9450
+Connection ~ 23750 9450
+Wire Wire Line
+	23750 9450 24700 9450
+Wire Wire Line
+	23650 9900 23950 9900
+Connection ~ 23950 9900
+Wire Wire Line
+	23950 9900 23950 10550
+Wire Wire Line
+	22800 9700 22900 9700
+Wire Wire Line
+	22900 9700 22900 9450
+Connection ~ 22900 9450
+Wire Wire Line
+	22900 9450 23750 9450
+Wire Wire Line
+	22800 9900 23000 9900
+Connection ~ 23000 9900
+Wire Wire Line
+	23000 9900 23000 10550
+Wire Wire Line
+	21850 9700 21950 9700
+Wire Wire Line
+	21950 9700 21950 9450
+Connection ~ 21950 9450
+Wire Wire Line
+	21950 9450 22900 9450
+Wire Wire Line
+	21850 9900 22050 9900
+Connection ~ 22050 9900
+Wire Wire Line
+	22050 9900 22050 10550
+Wire Wire Line
+	20900 9700 21000 9700
+Wire Wire Line
+	21000 9700 21000 9450
+Connection ~ 21000 9450
+Wire Wire Line
+	21000 9450 21950 9450
+Wire Wire Line
+	20900 9900 21100 9900
+Connection ~ 21100 9900
+Wire Wire Line
+	21100 9900 21100 10550
+Wire Wire Line
+	19950 9700 20050 9700
+Wire Wire Line
+	20050 9700 20050 9450
+Connection ~ 20050 9450
+Wire Wire Line
+	20050 9450 21000 9450
+Wire Wire Line
+	19950 9900 20150 9900
+Connection ~ 20150 9900
+Wire Wire Line
+	20150 9900 20150 10550
+Wire Wire Line
+	19000 9700 19100 9700
+Wire Wire Line
+	19100 9700 19100 9450
+Connection ~ 19100 9450
+Wire Wire Line
+	19100 9450 20050 9450
+Wire Wire Line
+	19000 9900 19200 9900
+Connection ~ 19200 9900
+Wire Wire Line
+	19200 9900 19200 10550
+Wire Wire Line
+	18050 9700 18150 9700
+Wire Wire Line
+	18150 9700 18150 9450
+Connection ~ 18150 9450
+Wire Wire Line
+	18150 9450 19100 9450
+Wire Wire Line
+	18050 9900 18250 9900
+Connection ~ 18250 9900
+Wire Wire Line
+	18250 9900 18250 10550
+Wire Wire Line
+	17100 9700 17200 9700
+Wire Wire Line
+	17200 9700 17200 9450
+Connection ~ 17200 9450
+Wire Wire Line
+	17200 9450 18150 9450
+Wire Wire Line
+	17100 9900 17300 9900
+Connection ~ 17300 9900
+Wire Wire Line
+	17300 9900 17300 10550
+Wire Wire Line
+	16150 9700 16250 9700
+Wire Wire Line
+	16250 9700 16250 9450
+Connection ~ 16250 9450
+Wire Wire Line
+	16250 9450 17200 9450
+Wire Wire Line
+	16150 9900 16350 9900
+Connection ~ 16350 9900
+Wire Wire Line
+	16350 9900 16350 10550
+Wire Wire Line
+	15200 9700 15300 9700
+Wire Wire Line
+	15300 9700 15300 9450
+Connection ~ 15300 9450
+Wire Wire Line
+	15300 9450 16250 9450
+Wire Wire Line
+	15200 9900 15400 9900
+Connection ~ 15400 9900
+Wire Wire Line
+	15400 9900 15400 10550
+Wire Wire Line
+	14250 9700 14350 9700
+Wire Wire Line
+	14350 9700 14350 9450
+Connection ~ 14350 9450
+Wire Wire Line
+	14350 9450 15300 9450
+Wire Wire Line
+	14250 9900 14500 9900
+Connection ~ 14500 9900
+Wire Wire Line
+	14500 9900 14500 10550
+Wire Wire Line
+	13300 9700 13400 9700
+Wire Wire Line
+	13400 9700 13400 9450
+Connection ~ 13400 9450
+Wire Wire Line
+	13400 9450 14350 9450
+Wire Wire Line
+	13300 9900 13550 9900
+Connection ~ 13550 9900
+Wire Wire Line
+	13550 9900 13550 10550
+Wire Wire Line
+	12350 9700 12450 9700
+Wire Wire Line
+	12450 9700 12450 9450
+Connection ~ 12450 9450
+Wire Wire Line
+	12450 9450 13400 9450
+Wire Wire Line
+	12350 9900 12600 9900
+Connection ~ 12600 9900
+Wire Wire Line
+	12600 9900 12600 10550
+Wire Wire Line
+	11400 9700 11500 9700
+Wire Wire Line
+	11500 9700 11500 9450
+Connection ~ 11500 9450
+Wire Wire Line
+	11500 9450 12450 9450
+Wire Wire Line
+	11400 9900 11650 9900
+Connection ~ 11650 9900
+Wire Wire Line
+	11650 9900 11650 10550
+Wire Wire Line
+	10450 9700 10550 9700
+Wire Wire Line
+	10550 9700 10550 9450
+Connection ~ 10550 9450
+Wire Wire Line
+	10550 9450 11500 9450
+Wire Wire Line
+	10450 9900 10700 9900
+Connection ~ 10700 9900
+Wire Wire Line
+	10700 9900 10700 10550
+Wire Wire Line
+	9500 9700 9600 9700
+Wire Wire Line
+	9600 9700 9600 9450
+Connection ~ 9600 9450
+Wire Wire Line
+	9600 9450 10550 9450
+Wire Wire Line
+	9500 9900 9750 9900
+Connection ~ 9750 9900
+Wire Wire Line
+	9750 9900 9750 10550
+Wire Wire Line
+	8550 9700 8650 9700
+Wire Wire Line
+	8650 9700 8650 9450
+Connection ~ 8650 9450
+Wire Wire Line
+	8650 9450 9600 9450
+Wire Wire Line
+	8550 9900 8800 9900
+Connection ~ 8800 9900
+Wire Wire Line
+	8800 9900 8800 10550
+Wire Wire Line
+	7600 9700 7700 9700
+Wire Wire Line
+	7700 9700 7700 9450
+Connection ~ 7700 9450
+Wire Wire Line
+	7700 9450 8650 9450
+Wire Wire Line
+	7600 10350 7700 10350
+Wire Wire Line
+	7700 10350 7700 10100
+Connection ~ 7700 10100
+Wire Wire Line
+	7700 10100 8650 10100
+Wire Wire Line
+	8550 10550 8800 10550
+Connection ~ 8800 10550
+Wire Wire Line
+	8800 10550 8800 11200
+Wire Wire Line
+	8550 10350 8650 10350
+Wire Wire Line
+	8650 10350 8650 10100
+Connection ~ 8650 10100
+Wire Wire Line
+	8650 10100 9600 10100
+Wire Wire Line
+	9500 10550 9750 10550
+Connection ~ 9750 10550
+Wire Wire Line
+	9750 10550 9750 11200
+Wire Wire Line
+	9500 10350 9600 10350
+Wire Wire Line
+	9600 10350 9600 10100
+Connection ~ 9600 10100
+Wire Wire Line
+	9600 10100 10550 10100
+Wire Wire Line
+	10450 10550 10700 10550
+Connection ~ 10700 10550
+Wire Wire Line
+	10700 10550 10700 11200
+Wire Wire Line
+	10450 10350 10550 10350
+Wire Wire Line
+	10550 10350 10550 10100
+Connection ~ 10550 10100
+Wire Wire Line
+	10550 10100 11500 10100
+Wire Wire Line
+	11400 10550 11650 10550
+Connection ~ 11650 10550
+Wire Wire Line
+	11650 10550 11650 11200
+Wire Wire Line
+	11400 10350 11500 10350
+Wire Wire Line
+	11500 10350 11500 10100
+Connection ~ 11500 10100
+Wire Wire Line
+	11500 10100 12450 10100
+Wire Wire Line
+	12350 10550 12600 10550
+Connection ~ 12600 10550
+Wire Wire Line
+	12600 10550 12600 11200
+Wire Wire Line
+	12350 10350 12450 10350
+Wire Wire Line
+	12450 10350 12450 10100
+Connection ~ 12450 10100
+Wire Wire Line
+	12450 10100 13400 10100
+Wire Wire Line
+	13300 10550 13550 10550
+Connection ~ 13550 10550
+Wire Wire Line
+	13550 10550 13550 11200
+Wire Wire Line
+	13300 10350 13400 10350
+Wire Wire Line
+	13400 10350 13400 10100
+Connection ~ 13400 10100
+Wire Wire Line
+	13400 10100 14350 10100
+Wire Wire Line
+	14250 10550 14500 10550
+Connection ~ 14500 10550
+Wire Wire Line
+	14500 10550 14500 11200
+Wire Wire Line
+	14250 10350 14350 10350
+Wire Wire Line
+	14350 10350 14350 10100
+Connection ~ 14350 10100
+Wire Wire Line
+	14350 10100 15300 10100
+Wire Wire Line
+	15200 10550 15400 10550
+Connection ~ 15400 10550
+Wire Wire Line
+	15400 10550 15400 11200
+Wire Wire Line
+	15200 10350 15300 10350
+Wire Wire Line
+	15300 10350 15300 10100
+Connection ~ 15300 10100
+Wire Wire Line
+	15300 10100 16250 10100
+Wire Wire Line
+	16150 10550 16350 10550
+Connection ~ 16350 10550
+Wire Wire Line
+	16350 10550 16350 11200
+Wire Wire Line
+	16150 10350 16250 10350
+Wire Wire Line
+	16250 10350 16250 10100
+Connection ~ 16250 10100
+Wire Wire Line
+	16250 10100 17200 10100
+Wire Wire Line
+	17100 10350 17200 10350
+Wire Wire Line
+	17200 10350 17200 10100
+Connection ~ 17200 10100
+Wire Wire Line
+	17200 10100 18150 10100
+Wire Wire Line
+	17100 10550 17300 10550
+Connection ~ 17300 10550
+Wire Wire Line
+	17300 10550 17300 11200
+Wire Wire Line
+	18050 10550 18250 10550
+Connection ~ 18250 10550
+Wire Wire Line
+	18250 10550 18250 11200
+Wire Wire Line
+	18050 10350 18150 10350
+Wire Wire Line
+	18150 10350 18150 10100
+Connection ~ 18150 10100
+Wire Wire Line
+	18150 10100 19100 10100
+Wire Wire Line
+	19000 10550 19200 10550
+Connection ~ 19200 10550
+Wire Wire Line
+	19200 10550 19200 11200
+Wire Wire Line
+	19000 10350 19100 10350
+Wire Wire Line
+	19100 10350 19100 10100
+Connection ~ 19100 10100
+Wire Wire Line
+	19100 10100 20050 10100
+Wire Wire Line
+	19950 10550 20150 10550
+Connection ~ 20150 10550
+Wire Wire Line
+	20150 10550 20150 11200
+Wire Wire Line
+	19950 10350 20050 10350
+Wire Wire Line
+	20050 10350 20050 10100
+Connection ~ 20050 10100
+Wire Wire Line
+	20050 10100 21000 10100
+Wire Wire Line
+	20900 10550 21100 10550
+Connection ~ 21100 10550
+Wire Wire Line
+	21100 10550 21100 11200
+Wire Wire Line
+	20900 10350 21000 10350
+Wire Wire Line
+	21000 10350 21000 10100
+Connection ~ 21000 10100
+Wire Wire Line
+	21000 10100 21950 10100
+Wire Wire Line
+	21850 10550 22050 10550
+Connection ~ 22050 10550
+Wire Wire Line
+	22050 10550 22050 11200
+Wire Wire Line
+	21850 10350 21950 10350
+Wire Wire Line
+	21950 10350 21950 10100
+Connection ~ 21950 10100
+Wire Wire Line
+	21950 10100 22900 10100
+Wire Wire Line
+	22800 10550 23000 10550
+Connection ~ 23000 10550
+Wire Wire Line
+	23000 10550 23000 11200
+Wire Wire Line
+	22800 10350 22900 10350
+Wire Wire Line
+	22900 10350 22900 10100
+Connection ~ 22900 10100
+Wire Wire Line
+	22900 10100 23750 10100
+Wire Wire Line
+	23650 10550 23950 10550
+Connection ~ 23950 10550
+Wire Wire Line
+	23950 10550 23950 11200
+Wire Wire Line
+	23650 10350 23750 10350
+Wire Wire Line
+	23750 10350 23750 10100
+Connection ~ 23750 10100
+Wire Wire Line
+	23750 10100 24700 10100
+Wire Wire Line
+	24600 10550 24900 10550
+Connection ~ 24900 10550
+Wire Wire Line
+	24900 10550 24900 11200
+Wire Wire Line
+	24600 10350 24700 10350
+Wire Wire Line
+	24700 10350 24700 10100
+Connection ~ 24700 10100
+Wire Wire Line
+	24700 10100 25650 10100
+Wire Wire Line
+	25550 10550 25850 10550
+Connection ~ 25850 10550
+Wire Wire Line
+	25850 10550 25850 11200
+Wire Wire Line
+	25550 10350 25650 10350
+Wire Wire Line
+	25650 10350 25650 10100
+Connection ~ 25650 10100
+Wire Wire Line
+	25650 10100 26600 10100
+Wire Wire Line
+	26500 10550 26800 10550
+Connection ~ 26800 10550
+Wire Wire Line
+	26800 10550 26800 11200
+Wire Wire Line
+	26500 10350 26600 10350
+Wire Wire Line
+	26600 10350 26600 10100
+Connection ~ 26600 10100
+Wire Wire Line
+	26600 10100 27550 10100
+Wire Wire Line
+	27450 10550 27750 10550
+Connection ~ 27750 10550
+Wire Wire Line
+	27750 10550 27750 11200
+Wire Wire Line
+	27450 10350 27550 10350
+Wire Wire Line
+	27550 10350 27550 10100
+Connection ~ 27550 10100
+Wire Wire Line
+	27550 10100 28500 10100
+Wire Wire Line
+	7600 11000 7700 11000
+Wire Wire Line
+	7700 11000 7700 10750
+Connection ~ 7700 10750
+Wire Wire Line
+	28400 10350 28500 10350
+Wire Wire Line
+	28500 10350 28500 10100
+Connection ~ 28500 10100
+Wire Wire Line
+	28500 10100 29000 10100
+Wire Wire Line
+	28400 10550 28700 10550
+Connection ~ 28700 10550
+Wire Wire Line
+	28700 10550 28700 11200
+Wire Wire Line
+	28400 11000 28500 11000
+Wire Wire Line
+	28500 11000 28500 10750
+Connection ~ 28500 10750
+Wire Wire Line
+	28500 10750 29000 10750
+Wire Wire Line
+	28400 11200 28700 11200
+Connection ~ 28700 11200
+Wire Wire Line
+	28700 11200 28700 12100
+Wire Wire Line
+	27450 11000 27550 11000
+Wire Wire Line
+	27550 11000 27550 10750
+Connection ~ 27550 10750
+Wire Wire Line
+	27550 10750 28500 10750
+Wire Wire Line
+	27450 11200 27750 11200
+Connection ~ 27750 11200
+Wire Wire Line
+	27750 11200 27750 12100
+Wire Wire Line
+	26500 11000 26600 11000
+Wire Wire Line
+	26600 11000 26600 10750
+Connection ~ 26600 10750
+Wire Wire Line
+	26600 10750 27550 10750
+Wire Wire Line
+	26500 11200 26800 11200
+Connection ~ 26800 11200
+Wire Wire Line
+	26800 11200 26800 12100
+Wire Wire Line
+	25550 11000 25650 11000
+Wire Wire Line
+	25650 11000 25650 10750
+Connection ~ 25650 10750
+Wire Wire Line
+	25650 10750 26600 10750
+Wire Wire Line
+	25550 11200 25850 11200
+Connection ~ 25850 11200
+Wire Wire Line
+	25850 11200 25850 12100
+Wire Wire Line
+	24600 11000 24700 11000
+Wire Wire Line
+	24700 11000 24700 10750
+Connection ~ 24700 10750
+Wire Wire Line
+	24700 10750 25650 10750
+Wire Wire Line
+	24600 11200 24900 11200
+Connection ~ 24900 11200
+Wire Wire Line
+	24900 11200 24900 12100
+Wire Wire Line
+	23650 11000 23750 11000
+Wire Wire Line
+	23750 11000 23750 10750
+Connection ~ 23750 10750
+Wire Wire Line
+	23750 10750 24700 10750
+Wire Wire Line
+	23650 11200 23950 11200
+Connection ~ 23950 11200
+Wire Wire Line
+	23950 11200 23950 12100
+Wire Wire Line
+	22800 11000 22900 11000
+Wire Wire Line
+	22900 11000 22900 10750
+Connection ~ 22900 10750
+Wire Wire Line
+	22900 10750 23750 10750
+Wire Wire Line
+	22800 11200 23000 11200
+Connection ~ 23000 11200
+Wire Wire Line
+	23000 11200 23000 12100
+Wire Wire Line
+	21850 11000 21950 11000
+Wire Wire Line
+	21950 11000 21950 10750
+Connection ~ 21950 10750
+Wire Wire Line
+	21950 10750 22900 10750
+Wire Wire Line
+	21850 11200 22050 11200
+Connection ~ 22050 11200
+Wire Wire Line
+	22050 11200 22050 12100
+Wire Wire Line
+	20900 11000 21000 11000
+Wire Wire Line
+	21000 11000 21000 10750
+Connection ~ 21000 10750
+Wire Wire Line
+	21000 10750 21950 10750
+Wire Wire Line
+	20900 11200 21100 11200
+Connection ~ 21100 11200
+Wire Wire Line
+	21100 11200 21100 12100
+Wire Wire Line
+	19950 11000 20050 11000
+Wire Wire Line
+	20050 11000 20050 10750
+Connection ~ 20050 10750
+Wire Wire Line
+	20050 10750 21000 10750
+Wire Wire Line
+	19950 11200 20150 11200
+Connection ~ 20150 11200
+Wire Wire Line
+	20150 11200 20150 12100
+Wire Wire Line
+	19000 11000 19100 11000
+Wire Wire Line
+	19100 11000 19100 10750
+Connection ~ 19100 10750
+Wire Wire Line
+	19100 10750 20050 10750
+Wire Wire Line
+	19000 11200 19200 11200
+Connection ~ 19200 11200
+Wire Wire Line
+	19200 11200 19200 12100
+Wire Wire Line
+	18050 11000 18150 11000
+Wire Wire Line
+	18150 11000 18150 10750
+Connection ~ 18150 10750
+Wire Wire Line
+	18150 10750 19100 10750
+Wire Wire Line
+	18050 11200 18250 11200
+Connection ~ 18250 11200
+Wire Wire Line
+	18250 11200 18250 12100
+Wire Wire Line
+	17100 11000 17200 11000
+Wire Wire Line
+	17200 11000 17200 10750
+Connection ~ 17200 10750
+Wire Wire Line
+	17200 10750 18150 10750
+Wire Wire Line
+	17100 11200 17300 11200
+Connection ~ 17300 11200
+Wire Wire Line
+	17300 11200 17300 12100
+Wire Wire Line
+	16150 11000 16250 11000
+Wire Wire Line
+	16250 11000 16250 10750
+Connection ~ 16250 10750
+Wire Wire Line
+	16250 10750 17200 10750
+Wire Wire Line
+	16150 11200 16350 11200
+Connection ~ 16350 11200
+Wire Wire Line
+	16350 11200 16350 12100
+Wire Wire Line
+	15200 11000 15300 11000
+Wire Wire Line
+	15300 11000 15300 10750
+Connection ~ 15300 10750
+Wire Wire Line
+	15300 10750 16250 10750
+Wire Wire Line
+	15200 11200 15400 11200
+Connection ~ 15400 11200
+Wire Wire Line
+	15400 11200 15400 12100
+Wire Wire Line
+	14250 11000 14350 11000
+Wire Wire Line
+	14350 11000 14350 10750
+Connection ~ 14350 10750
+Wire Wire Line
+	14350 10750 15300 10750
+Wire Wire Line
+	14250 11200 14500 11200
+Connection ~ 14500 11200
+Wire Wire Line
+	14500 11200 14500 12100
+Wire Wire Line
+	13300 11000 13400 11000
+Wire Wire Line
+	13400 11000 13400 10750
+Connection ~ 13400 10750
+Wire Wire Line
+	13400 10750 14350 10750
+Wire Wire Line
+	13300 11200 13550 11200
+Connection ~ 13550 11200
+Wire Wire Line
+	13550 11200 13550 12100
+Wire Wire Line
+	12350 11200 12600 11200
+Connection ~ 12600 11200
+Wire Wire Line
+	12600 11200 12600 12100
+Wire Wire Line
+	12350 11000 12450 11000
+Wire Wire Line
+	12450 11000 12450 10750
+Connection ~ 12450 10750
+Wire Wire Line
+	12450 10750 13400 10750
+Wire Wire Line
+	11400 11000 11500 11000
+Wire Wire Line
+	11500 11000 11500 10750
+Connection ~ 11500 10750
+Wire Wire Line
+	11500 10750 12450 10750
+Wire Wire Line
+	11400 11200 11650 11200
+Connection ~ 11650 11200
+Wire Wire Line
+	11650 11200 11650 12100
+Wire Wire Line
+	10450 11200 10700 11200
+Connection ~ 10700 11200
+Wire Wire Line
+	10700 11200 10700 12100
+Wire Wire Line
+	10450 11000 10550 11000
+Wire Wire Line
+	10550 11000 10550 10750
+Connection ~ 10550 10750
+Wire Wire Line
+	10550 10750 11500 10750
+Wire Wire Line
+	9500 11200 9750 11200
+Connection ~ 9750 11200
+Wire Wire Line
+	9750 11200 9750 12100
+Wire Wire Line
+	9500 11000 9600 11000
+Wire Wire Line
+	9600 11000 9600 10750
+Connection ~ 9600 10750
+Wire Wire Line
+	9600 10750 10550 10750
+Wire Wire Line
+	8550 11200 8800 11200
+Connection ~ 8800 11200
+Wire Wire Line
+	8800 11200 8800 12100
+Wire Wire Line
+	8550 11000 8650 11000
+Wire Wire Line
+	8650 11000 8650 10750
+Wire Wire Line
+	7700 10750 8650 10750
+Wire Wire Line
+	8650 10750 9600 10750
+Connection ~ 8650 10750
+$Comp
+L beamspring~pad:sense_pad U1
+U 1 1 5DD9DE55
+P 7350 9150
+F 0 "U1" H 7383 9515 50  0000 C CNN
+F 1 "F1_SENSE" H 7383 9424 50  0000 C CNN
+F 2 "beamspring pad:SENSE_PAD" H 7400 9150 50  0001 C CNN
+F 3 "" H 7400 9150 50  0001 C CNN
+	1    7350 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:sense_pad U46
+U 1 1 5DDA464D
+P 7350 10450
+F 0 "U46" H 7383 10815 50  0000 C CNN
+F 1 "F5_SENSE" H 7383 10724 50  0000 C CNN
+F 2 "beamspring pad:SENSE_PAD" H 7400 10450 50  0001 C CNN
+F 3 "" H 7400 10450 50  0001 C CNN
+	1    7350 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:sense_pad U23
+U 1 1 5DD9FD52
+P 7350 9800
+F 0 "U23" H 7383 10165 50  0000 C CNN
+F 1 "F3_SENSE" H 7383 10074 50  0000 C CNN
+F 2 "beamspring pad:SENSE_PAD" H 7400 9800 50  0001 C CNN
+F 3 "" H 7400 9800 50  0001 C CNN
+	1    7350 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U36
+U 1 1 5DE01367
+P 19650 9800
+F 0 "U36" H 19733 10165 50  0000 C CNN
+F 1 "I" H 19733 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 19700 9800 50  0001 C CNN
+F 3 "" H 19700 9800 50  0001 C CNN
+	1    19650 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L beamspring~pad:capacitive_sensor U37
+U 1 1 5DE01349
+P 20600 9800
+F 0 "U37" H 20683 10165 50  0000 C CNN
+F 1 "O" H 20683 10074 50  0000 C CNN
+F 2 "beamspring pad:BEAMSPRING_PAD" H 20650 9800 50  0001 C CNN
+F 3 "" H 20650 9800 50  0001 C CNN
+	1    20600 9800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
